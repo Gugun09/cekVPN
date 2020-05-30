@@ -3,9 +3,10 @@
 # Script Mod By GUgun09
 
 cd /usr/bin
-wget -O vpn "https://raw.githubusercontent.com/gugun09/cekVPN/master/cekVPN.sh"
-wget -O renew "https://raw.githubusercontent.com/gugun09/cekVPN/master/renew.sh"
-wget -O renew "https://raw.githubusercontent.com/gugun09/cekVPN/master/cekpass.sh"
+wget -O premium.tar.gz "https://raw.githubusercontent.com/gugun09/cekVPN/master/premium.tar.gz"
+tar -xvf premium.tar.gz
+rm -f premium.tar.gz
+
 chmod +x vpn
 chmod +x renew
 chmod +x cekpass
