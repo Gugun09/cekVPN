@@ -66,7 +66,7 @@ usermod -e  $tanggal_expired $username
   echo "   Active Time     : $masa_aktif Days" | lolcat
   echo "   Date Expired    : $tanggal_expired_display" | lolcat
   echo "--------------------------------------" | lolcat
-  echo " "
+  echo " Script Mod by Gugun09 " | lolcat
 
 else
 echo -e "Username ${red}$username${NC} not found in your VPS" | lolcat
