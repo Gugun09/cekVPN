@@ -60,16 +60,16 @@ usermod -e  $tanggal_expired $username
   clear
   echo " "
   echo " "
-  echo "---------------------------------------"
-  echo "       Extended Account Details        "
-  echo "---------------------------------------"
-  echo "   Username        : $username"
-  echo "   Active Time     : $masa_aktif Days"
-  echo "   Date Expired    : $tanggal_expired_display"
-  echo "--------------------------------------"
+  echo "---------------------------------------" | lolcat
+  echo "       Extended Account Details        " | lolcat
+  echo "---------------------------------------" | lolcat
+  echo "   Username        : $username" | lolcat
+  echo "   Active Time     : $masa_aktif Days" | lolcat
+  echo "   Date Expired    : $tanggal_expired_display" | lolcat
+  echo "--------------------------------------" | lolcat
   echo " "
 
 else
-echo -e "Username ${red}$username${NC} not found in your VPS"
+echo -e "Username ${red}$username${NC} not found in your VPS" | lolcat
 exit 0
 fi
