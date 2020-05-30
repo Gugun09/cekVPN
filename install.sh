@@ -5,8 +5,10 @@
 cd /usr/bin
 wget -O vpn "https://raw.githubusercontent.com/gugun09/cekVPN/master/cekVPN.sh"
 wget -O renew "https://raw.githubusercontent.com/gugun09/cekVPN/master/renew.sh"
+wget -O renew "https://raw.githubusercontent.com/gugun09/cekVPN/master/cekpass.sh"
 chmod +x vpn
 chmod +x renew
+chmod +x cekpass
 
 cd
 
