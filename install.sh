@@ -7,7 +7,7 @@ wget -O premium.tar.gz "https://raw.githubusercontent.com/gugun09/cekVPN/master/
 tar -xvf premium.tar.gz
 rm -f premium.tar.gz
 
-chmod +x vpn
+chmod +x cekvpn
 chmod +x renew
 chmod +x cekpass
 
