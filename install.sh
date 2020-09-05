@@ -25,5 +25,13 @@ sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dr
 service ssh restart
 service dropbear restart
 
+cd /usr/bin
+wget -O userlimit.sh "https://raw.githubusercontent.com/juckyvengeanceee/debian.sh/master/userlimit.sh"
+wget -O userlimitssh.sh "https://raw.githubusercontent.com/juckyvengeanceee/debian.sh/master/userlimitssh.sh"
+wget -O list "https://raw.githubusercontent.com/gugun09/cekVPN/master/list.sh"
+chmod +x userlimit.sh
+chmod +x userlimitssh.sh
+chmod +x list
+
 cd
 rm -f /root/install.sh
